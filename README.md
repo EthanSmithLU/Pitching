@@ -1,2 +1,3 @@
-# Pitching
-using ai to make myself a better pitcher
+# making myself a better pitcher
+
+content will go here
