@@ -1,3 +1,3 @@
 # Improving My Pitching Ability
 
-Content Will Go Here
+[Introduction to Pitching](intro-to-pitching.md)
