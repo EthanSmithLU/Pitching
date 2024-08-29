@@ -1,3 +1,3 @@
-# making myself a better pitcher
+# Improving My Pitching Ability
 
-content will go here
+Content Will Go Here
