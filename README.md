@@ -1,15 +1,11 @@
-# Improving My Pitching Ability
+# Learning, Understanding and Applying Pitching Analytics and Sabermetrics
 
-# My Baseball Pitching Repository
+# Pitching Analytics and Sabermetrics Repository
 
-Welcome to my repository about baseball pitching techniques and improvement.
+This project aims to analyze publicly available MLB pitching data and other resources to better understand modern pitching concepts and analytics. The insights gained from this analysis will be used to enhance discussions with my pitching coach and improve my understanding of pitching strategies.
 
-## Contents
-
-- [Introduction to Pitching](intro-to-pitching.md)
-- [Advanced Techniques](advanced-techniques.md)
-- [Training Programs](training-programs.md)
-
-## About
-
-This repository contains information and resources for baseball pitchers looking to improve their skills...
+## Objectives
+- Analyze MLB pitching data from the past few seasons
+- Visualize key pitching metrics and trends
+- Explore relationships between different pitching variables
+- Draw insights that can be applied to pitching strategy discussions
