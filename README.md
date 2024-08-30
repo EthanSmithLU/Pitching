@@ -1,4 +1,4 @@
-# Learning, Understanding and Applying Pitching Analytics and Sabermetrics
+# Learning, Understanding, and Applying Pitching Analytics and Sabermetrics
 
 # Pitching Analytics and Sabermetrics Repository
 
