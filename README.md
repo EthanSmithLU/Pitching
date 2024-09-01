@@ -10,10 +10,10 @@ This project aims to analyze publicly available MLB pitching data and other reso
 - Explore relationships between different pitching variables
 - Draw insights that can be applied to pitching strategy discussions
 
-- ## Game-Plan
+## Game-Plan
 - Look at various pitches that are thrown, describing movement, grips, players who throw it, ect.
 - Descirbe, analyse, and learn some advanced pitching terminology to improve my skill as a pitcher
-- (to be continued)
+- Compare my data I get from throwing at Lindenwood to Data MLB players have (to be continued)
 
 ## History of Sabermetrics in Baseball
 [Brief History of Sabermetrics in Pitching](history-of-sabermetrics-and-analytics-in-pitching.md) links you to a bit of the history and how sabermetrics became what is is today.
