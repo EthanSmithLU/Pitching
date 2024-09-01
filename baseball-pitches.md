@@ -1,3 +1,5 @@
+[Back to README](README.md)
+
 # Pitches in Baseball: A Sabermetric Overview
 
 In modern baseball, pitchers use a variety of pitches to keep batters off-balance. Each pitch type has unique characteristics that can be analyzed using sabermetric tools. Here's an overview of common pitch types:
