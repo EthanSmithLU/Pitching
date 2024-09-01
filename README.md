@@ -14,4 +14,4 @@ This project aims to analyze publicly available MLB pitching data and other reso
 [Brief History of Sabermetrics in Pitching](sabermetrics_history.md) links you to a bit of the history and how sabermetrics became what is is today.
 
 ## Pitch Types
-Check out my [overview of different pitch types](baseball-pitches.md) to learn more about how each pitch is analyzed in the world of sabermetrics.
+[Overview of Different Pitch Types](baseball-pitches.md) links you to learn more about what the differnt pitches are, and how they are analyzed in the world of sabermetrics.
