@@ -1,3 +1,5 @@
+[Back to Baseball Pitches](baseball-pitches.md)
+
 # Cutter (Cut Fastball)
 
 The cutter, or cut fastball, is a pitch that combines elements of a fastball and a slider. It's known for its late, sharp break that moves away from same-handed batters and in on opposite-handed batters.
