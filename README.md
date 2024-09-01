@@ -10,4 +10,5 @@ This project aims to analyze publicly available MLB pitching data and other reso
 - Explore relationships between different pitching variables
 - Draw insights that can be applied to pitching strategy discussions
 
+## Pitch Types
 Check out my [overview of different pitch types](baseball-pitches.md) to learn more about how each pitch is analyzed in the world of sabermetrics.
