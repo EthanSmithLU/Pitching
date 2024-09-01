@@ -1,3 +1,5 @@
+[Back to Baseball Pitches](baseball-pitches.md)
+
 # Four-Seam Fastball
 
 The four-seam fastball is one of the most common and straightforward pitches in baseball. It's known for its velocity and relatively straight trajectory.
