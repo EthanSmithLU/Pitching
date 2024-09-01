@@ -1,3 +1,5 @@
+[Back to Baseball Pitches](baseball-pitches.md)
+
 # Curveball
 
 The curveball is a breaking pitch known for its significant downward movement and slower velocity compared to fastballs. It's designed to deceive batters with its sharp break and change of speed.
