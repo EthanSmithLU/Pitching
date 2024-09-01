@@ -1,3 +1,5 @@
+[Back to Baseball Pitches](baseball-pitches.md)
+
 # Two-Seam Fastball
 
 The two-seam fastball, also known as a sinker, is a variation of the fastball that trades some velocity for increased movement, particularly arm-side run and sink.
