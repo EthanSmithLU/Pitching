@@ -21,3 +21,7 @@ This project aims to analyze publicly available MLB pitching data and other reso
 
 ## Pitch Types
 [Overview of Different Pitch Types](baseball-pitches.md) links you to learn more about what the differnt pitches are, and how they are analyzed in the world of sabermetrics.
+
+## MLB Pitch Comparison Tool
+
+Check out our interactive MLB Pitch Comparison Tool [here](https://<username>.github.io/<repository-name>/).
