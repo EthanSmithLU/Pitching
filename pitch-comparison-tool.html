@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLB Pitch Comparison Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        select, button {
+            font-size: 16px;
+            margin: 10px 0;
+            padding: 5px;
+        }
+        #comparison {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .pitch-info {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 45%;
+        }
+        .pitch-info h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .pitch-info p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>MLB Pitch Comparison Tool</h1>
+    <div>
+        <select id="pitch1">
+            <option value="">Select Pitch 1</option>
+            <option value="fourseam">Four-Seam Fastball</option>
+            <option value="twoseam">Two-Seam Fastball</option>
+            <option value="cutter">Cutter</option>
+            <option value="curveball">Curveball</option>
+            <option value="slider">Slider</option>
+            <option value="changeup">Changeup</option>
+        </select>
+        <select id="pitch2">
+            <option value="">Select Pitch 2</option>
+            <option value="fourseam">Four-Seam Fastball</option>
+            <option value="twoseam">Two-Seam Fastball</option>
+            <option value="cutter">Cutter</option>
+            <option value="curveball">Curveball</option>
+            <option value="slider">Slider</option>
+            <option value="changeup">Changeup</option>
+        </select>
+        <button onclick="comparePitches()">Compare</button>
+    </div>
+    <div id="comparison"></div>
+
+    <script>
+        const pitchData = {
+            fourseam: {
+                name: "Four-Seam Fastball",
+                avgVelocity: "93-94 mph",
+                movement: "Minimal horizontal, slight 'rise'",
+                spinRate: "2200-2400 RPM",
+                usage: "Setup pitch, strikeouts"
+            },
+            twoseam: {
+                name: "Two-Seam Fastball",
+                avgVelocity: "92-93 mph",
+                movement: "Arm-side run and sink",
+                spinRate: "2000-2200 RPM",
+                usage: "Induce ground balls"
+            },
+            cutter: {
+                name: "Cutter",
+                avgVelocity: "88-92 mph",
+                movement: "Late break to glove side",
+                spinRate: "2400-2600 RPM",
+                usage: "Weak contact, break bats"
+            },
+            curveball: {
+                name: "Curveball",
+                avgVelocity: "78-82 mph",
+                movement: "Significant downward break",
+                spinRate: "2500-2800 RPM",
+                usage: "Strikeout pitch, change eye level"
+            },
+            slider: {
+                name: "Slider",
+                avgVelocity: "84-88 mph",
+                movement: "Diagonal break",
+                spinRate: "2400-2700 RPM",
+                usage: "Strikeout pitch, especially vs same-handed batters"
+            },
+            changeup: {
+                name: "Changeup",
+                avgVelocity: "83-86 mph",
+                movement: "Arm-side fade, some drop",
+                spinRate: "1700-2000 RPM",
+                usage: "Disrupt timing, induce weak contact"
+            }
+        };
+
+        function comparePitches() {
+            const pitch1 = document.getElementById('pitch1').value;
+            const pitch2 = document.getElementById('pitch2').value;
+
+            if (pitch1 && pitch2) {
+                const comparisonDiv = document.getElementById('comparison');
+                comparisonDiv.innerHTML = `
+                    <div class="pitch-info">
+                        <h2>${pitchData[pitch1].name}</h2>
+                        <p><strong>Avg. Velocity:</strong> ${pitchData[pitch1].avgVelocity}</p>
+                        <p><strong>Movement:</strong> ${pitchData[pitch1].movement}</p>
+                        <p><strong>Spin Rate:</strong> ${pitchData[pitch1].spinRate}</p>
+                        <p><strong>Typical Usage:</strong> ${pitchData[pitch1].usage}</p>
+                    </div>
+                    <div class="pitch-info">
+                        <h2>${pitchData[pitch2].name}</h2>
+                        <p><strong>Avg. Velocity:</strong> ${pitchData[pitch2].avgVelocity}</p>
+                        <p><strong>Movement:</strong> ${pitchData[pitch2].movement}</p>
+                        <p><strong>Spin Rate:</strong> ${pitchData[pitch2].spinRate}</p>
+                        <p><strong>Typical Usage:</strong> ${pitchData[pitch2].usage}</p>
+                    </div>
+                `;
+            } else {
+                alert("Please select two pitches to compare.");
+            }
+        }
+    </script>
+</body>
+</html>
