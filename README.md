@@ -24,4 +24,4 @@ This project aims to analyze publicly available MLB pitching data and other reso
 
 ## MLB Pitch Comparison Tool
 
-https://ethansmithlu.github.io/Pitching/
+Here is my pitch comparison tool. This will lead you to another website I had AI create https://ethansmithlu.github.io/Pitching/
