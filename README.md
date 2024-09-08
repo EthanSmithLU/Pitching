@@ -23,9 +23,10 @@ This project aims to analyze publicly available MLB pitching data and other reso
 [Overview of Different Pitch Types](baseball-pitches.md) links you to learn more about what the differnt pitches are, and how they are analyzed in the world of sabermetrics.
 
 ## MLB Pitch Comparison Tool
-
 Here is my pitch comparison tool. This will lead you to another website I had AI create https://ethansmithlu.github.io/Pitching/
 
 ## Pitcher Comparison Tool
-
 Here is my pitcher comparison tool. Eventually you will be able to enter metrics and it will compare those metrics to different MLB pitchers. [click here](pitcher_comparison_tool.md)
+
+## Baseball Savant
+Baseball Savant is one of the most useful websites for pitchers to learn and perfect their craft. Click [here](baseball-savant.md) to learn more
