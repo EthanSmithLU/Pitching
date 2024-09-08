@@ -28,4 +28,4 @@ Here is my pitch comparison tool. This will lead you to another website I had AI
 
 ## Pitcher Comparison Tool
 
-Here is my pitcher comparison tool. Eventually you will be able to enter metrics and it will compare those metrics to different MLB pitchers. [click here](pitcher_comparison_tool.md
+Here is my pitcher comparison tool. Eventually you will be able to enter metrics and it will compare those metrics to different MLB pitchers. [click here](pitcher_comparison_tool.md)
