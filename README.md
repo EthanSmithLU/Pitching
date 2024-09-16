@@ -30,3 +30,6 @@ Here is my pitcher comparison tool. Eventually you will be able to enter metrics
 
 ## Baseball Savant
 Baseball Savant is one of the most useful websites for pitchers to learn and perfect their craft. Click [here](baseball-savant.md) to learn more
+
+## YouTube Channel
+I am going to start a YouTube channel, find more [here](master-the-mound).
